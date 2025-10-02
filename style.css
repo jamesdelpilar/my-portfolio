@@ -1,5 +1,6 @@
 :root {
     --main-color: black;
+    --secondary-color: rgb(52, 195, 252);
     --font-size-large: 18px;
 }
 
@@ -50,4 +51,19 @@ form label {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Flexbox Example */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flex-item {
+    padding: 20px;
+    width: 100px;
+    color: black;
+    text-align: center;
+}
+
 
