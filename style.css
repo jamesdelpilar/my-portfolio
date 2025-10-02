@@ -1,0 +1,53 @@
+:root {
+    --main-color: black;
+    --font-size-large: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color:var (--main-color);
+
+}
+
+input[type="text"], input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    color:var (--main-color);
+}
+
+h1 {
+  text-align: center;
+  color:var (--main-color);
+}
+
+h2 {
+  text-align: center;
+  color:var (--main-color);
+}
+
+h3 {
+  text-align: center;
+  color:var (--main-color);
+}
+
+p {
+  text-align: center;
+  color:var (--main-color);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color:var (--main-color);
+  font-weight: 700;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
