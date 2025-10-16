@@ -1,42 +1,110 @@
 :root {
-    --main-color: black;
-    --secondary-color: rgb(52, 195, 252);
-    --font-size-large: 18px;
+  --main-color: black;
+  --secondary-color: rgb(52, 195, 252);
+  --font-size-large: 18px;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color:var (--main-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 2.0;
+  color:var (--main-color);
+  margin: 0 auto;    
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
 input[type="text"], input[type="email"],input[type="password"]{
-    width: 100%;
-    padding: 15px;
-    margin: 10px;
-    box-sizing: border-box;
-    font-weight: 700;
-    color:var (--main-color);
+  width: 100%;
+  padding: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-weight: 700;
+  color:var (--main-color);
+}
+
+.name-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 524px;
+  height: 73px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Header Links */
+.header-flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.flex-item {
+  padding: 0px;
+  width: 100px;
+  color: white;
+  text-align: center;
+  
 }
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
   color:var (--main-color);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h2 {
   text-align: center;
+  text-transform: uppercase;
   color:var (--main-color);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h3 {
   text-align: center;
+  text-transform: uppercase;
   color:var (--main-color);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 p {
   text-align: center;
   color:var (--main-color);
+  display:flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.italic-text{
+  font-weight: italic;
+}
+
+.white-text{
+  color:white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form label {
@@ -46,24 +114,89 @@ form label {
   font-weight: 700;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+
+/* Small Horizone Line Divider */
+.small-hr{
+  width: 500px;
+  height: 0px;            
+  background-color: grey;
+  margin: 20px auto;  
 }
 
-/* Flexbox Example */
-.flex-container {
+/* Common panel styles */
+.horiz-panel {
+    height: 0vh; 
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
 }
 
-.flex-item {
-    padding: 20px;
-    width: 100px;
-    color: black;
-    text-align: center;
+.name-logo-panel {
+  height: 30vh; 
+  background-color: black; 
 }
 
+.header-links-panel {
+  height: 6vh;
+  background-color: black;
+}
 
+.footer-panel {
+  height: 5vh;
+  background-color: black;
+}
+
+.contact-form-panel {
+  height: 0vh;
+  background-color: black;
+}
+
+/* Smaller Screen Sizes */
+@media (max-width: 600px) {
+    p {
+        font-size: 1.0rem;      
+        line-height: 2.0;       
+        margin-bottom: 1.0rem;  
+    }
+
+    h1 {
+        font-size: 1.5rem;      
+        margin-bottom: 1.0rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;      
+        margin-bottom: 1.0rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;      
+        margin-bottom: 1.0rem;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 1.0rem;      
+        line-height: 2.0;       
+        margin-bottom: 1.0rem;  
+    }
+
+    h1 {
+        font-size: 1.5rem;      
+        margin-bottom: 1.0rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;      
+        margin-bottom: 1.0rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;      
+        margin-bottom: 1.0rem;
+    }
+}
