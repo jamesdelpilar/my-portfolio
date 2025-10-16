@@ -82,7 +82,6 @@ h3 {
 p {
   text-align: center;
   color:var (--main-color);
-  display:flex;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 300px;
