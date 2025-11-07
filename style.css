@@ -153,6 +153,10 @@ form label {
   background-color: black;
 }
 
+.hidden {
+    display: none;
+  }
+
 form {
   display: inline-block;
   margin-left: auto;
