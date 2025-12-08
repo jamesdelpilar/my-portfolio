@@ -10,7 +10,8 @@ I have also decided not to implement branch rules due to being a solo developer 
 [Kanban Board](https://github.com/users/jamesdelpilar/projects/2/views/2)
 <br>
 
-### Jekyll Blog Site (Third-Party)
+### Typed.js (Third-Party)
+Implemented the Type.js library to have animated text.
 
 ### Aesthetic
 
