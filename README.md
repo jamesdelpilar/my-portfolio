@@ -5,8 +5,10 @@ Due to learning GitHub best practices, I have implemented branches for the follo
 
 I have also decided not to implement branch rules due to being a solo developer on this project. If this was with more than one developer, branch rules and proper PR's would be implemented. This decision can be debatable between developers.
 
-Branches: https://github.com/jamesdelpilar/my-portfolio/branches
-Kanban Board: https://github.com/users/jamesdelpilar/projects/2/views/2
+[Branches](https://github.com/jamesdelpilar/my-portfolio/branches)
+<br>
+[Kanban Board](https://github.com/users/jamesdelpilar/projects/2/views/2)
+<br>
 
 ### Jekyll Blog Site (Third-Party)
 
