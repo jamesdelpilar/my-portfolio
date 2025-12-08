@@ -20,12 +20,12 @@ Implemented the Type.js library to have animated text.
 Went for a minimal neutral colour (white, gray, black) palette. I chose this design due to my "philosophy" as a programmer: Don't over complicate code. Keep it simple.
 
 ### Content
-Replaced some placeholder portfolio
-Embedded YouTube video
-Added addition show/hide deatil button functionality
+- Replaced some placeholder portfolio 
+- Embedded YouTube video
+- Added addition show/hide detail button functionality
 
 ### Styling
-Changed some alignment issues
-Changed background colour
-Added additional horizontal rule diveders with various lengths
-Changed hyperlink colour of navigational bar
+- Changed some alignment issues
+- Changed background colour 
+- Added additional horizontal rule diveders with various lengths 
+- Changed hyperlink colour of navigational bar 
