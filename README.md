@@ -10,3 +10,6 @@ Kanban Board: https://github.com/users/jamesdelpilar/projects/2/views/2
 
 ### Jekyll Blog Site (Third-Party)
 
+### Aesthetic
+
+Went for a minimal neutral colour (white, gray, black) palette. I chose this design due to my "philosophy" as a programmer: Don't over complicate code. Keep it simple.
