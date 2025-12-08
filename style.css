@@ -124,6 +124,22 @@ form label {
   margin: 20px auto;  
 }
 
+/* Medium Horizone Line Divider */
+.medium-hr{
+  width: 800px;
+  height: 0px;            
+  background-color: grey;
+  margin: 20px auto;  
+}
+
+/* Long Horizone Line Divider */
+.Long-hr{
+  width: 1500px;
+  height: 0px;            
+  background-color: grey;
+  margin: 20px auto;  
+}
+
 /* Common panel styles */
 .horiz-panel {
     height: 0vh; 
