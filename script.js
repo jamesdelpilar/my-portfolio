@@ -9,6 +9,9 @@ const submitButton = document.getElementById("submit-button");
 const project1_button = document.getElementById('project1_button');
 const project1_text = document.getElementById('project1-description');
 
+const project2_button = document.getElementById('project2_button');
+const project2_text = document.getElementById('project2-description');
+
 // Form validation to check if name, message and email fields are blank
 form.addEventListener("submit", (event) => {
     let isValid = true;
@@ -43,4 +46,10 @@ form.addEventListener("submit", (event) => {
       const isHidden = project1_text.classList.contains('hidden');
       project1_text.classList.toggle('hidden');
       project1_button.textContent = isHidden ? 'Hide Details' : 'Show Details';
+    });
+
+    project2_button.addEventListener('click', () => {
+      const isHidden = project2_text.classList.contains('hidden');
+      project2_text.classList.toggle('hidden');
+      project2_button.textContent = isHidden ? 'Hide Details' : 'Show Details';
     });
