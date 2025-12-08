@@ -20,8 +20,9 @@ Implemented the Type.js library to have animated text.
 Went for a minimal neutral colour (white, gray, black) palette. I chose this design due to my "philosophy" as a programmer: Don't over complicate code. Keep it simple.
 
 ### Content
-- Replaced some placeholder portfolio 
+- Replaced some placeholder portfolio (Project 1, Project 2 and Work Experience)
 - Embedded YouTube video
+- Embedded Gif
 - Added addition show/hide detail button functionality
 
 ### Styling
